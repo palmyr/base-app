@@ -1,0 +1,11 @@
+services:
+
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+
+  Palmyr\App\:
+    resource: '../src/'
+    exclude:
+      - '../src/Application.php'
