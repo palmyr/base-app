@@ -1,7 +1,7 @@
 {
     "name": "palmyr/app",
     "description": "Base symfony console",
-    "type": "library",
+    "type": "project",
     "license": "GPL-3.0-only",
     "authors": [
         { "name": "Ryan Palm", "email":  "rspalm@bigpond.com" }
