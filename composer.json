@@ -1,5 +1,5 @@
 {
-    "name": "palmyr/base_app",
+    "name": "palmyr/base-app",
     "description": "Base symfony console",
     "type": "project",
     "license": "GPL-3.0-only",
