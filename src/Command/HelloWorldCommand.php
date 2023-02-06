@@ -14,7 +14,7 @@ class HelloWorldCommand extends Command
         parent::__construct('app:hello_world');
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $output->writeln('Hello world!!!');
 
