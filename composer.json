@@ -1,6 +1,6 @@
 {
     "name": "palmyr/base-app",
-    "description": "Base symfony console",
+    "description": "Base symfony app to generate cli commands with only some of the core components.",
     "type": "project",
     "license": "GPL-3.0-only",
     "authors": [
@@ -19,7 +19,7 @@
     "minimum-stability": "stable",
     "require": {
         "php": ">=8.2",
-        "palmyr/console": "^3.0.0"
+        "palmyr/console": "^4.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5"
