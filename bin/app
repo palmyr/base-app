@@ -15,6 +15,6 @@ if (
     exit(1);
 }
 
-(new \Symfony\Component\Dotenv\Dotenv())->loadEnv(__DIR__ . DIRECTORY_SEPARATOR . ".env");
+(new \Symfony\Component\Dotenv\Dotenv())->loadEnv(dirname(__DIR__, 1) . DIRECTORY_SEPARATOR . ".env");
 
 Palmyr\App\Application::init($_ENV["APP_ENV"]);
